@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontaine Trust - Under Construction</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            background: linear-gradient(135deg, #f3f4f6, #e2e6e9);
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3.5em;
+            font-weight: bold;
+            color: #222;
+            margin-bottom: 0.3em;
+            animation: fadeIn 2s ease-in;
+        }
+        .scrolling-container {
+            overflow: hidden;
+            width: 100%;
+            max-width: 90%;
+            padding: 1em;
+        }
+        .scrolling-text {
+            display: inline-block;
+            white-space: nowrap;
+            box-sizing: border-box;
+            animation: scroll 25s linear infinite;
+            font-size: 1.5em;
+            color: #444;
+            padding: 1em;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        @keyframes scroll {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Under Construction</h1>
+    <div class="scrolling-container">
+        <div class="scrolling-text">
+            Our mission is to build and safeguard enduring wealth for the Fontaine family, providing a foundation that empowers future generations. Through dedicated stewardship and thoughtful investment, we strive to protect and enhance our family's assets, ensuring a lasting legacy that honors our history and supports our shared aspirations for years to come.
+        </div>
+    </div>
+</body>
+</html>
